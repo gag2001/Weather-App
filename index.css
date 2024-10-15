@@ -1,0 +1,113 @@
+body{
+    background-color: rgba(27, 137, 176, 0.3);
+    color: rgba(63, 198, 59, 0.6);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    max-width: 470px;
+    margin: auto;
+    margin-top: 80px;
+    gap: 6px;
+    background-color: rgba(174, 167, 167,0.2);
+}
+
+
+
+.div1{
+    grid-column: 1/ span 2;
+    background-color: rgba(255, 165, 0,0.6);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.div2{
+    height: 155px;
+    background-color: rgb(250, 250, 250);
+    position: relative;
+}
+
+.div3{
+    height: 155px;
+    background-color: rgb(250, 250, 250);
+    position: relative;
+}
+
+
+.div4{
+    grid-column: 1/ span 2;
+    height: 136px;
+    background-color: rgb(250, 250, 250);
+    position: relative;
+}
+
+input{
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    padding: 7px;
+    width: 220px;
+}
+
+input:focus {
+    border: none; 
+    outline: none; 
+}
+
+
+
+.City{
+   display: flex;
+   justify-content: center;
+   color: red;
+}
+.city{
+    position: absolute;
+    bottom: 3px;
+    left: 4px;
+    font-weight: bold;
+}
+
+.Country{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    font-size : 23px;
+    color: red
+}
+
+.country{
+     position: absolute;
+     bottom: 3px;
+     left: 4px;
+     font-weight: bold;
+}
+
+#Temp{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    font-size : 23px;
+    color: red;
+}
+
+
+.temp{
+    position: absolute;
+    bottom: 3px;
+    left:   4px;
+    font-weight: bold;
+}
+
+.temperature{
+margin-top : 30px
+}
